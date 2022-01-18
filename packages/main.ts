@@ -1,72 +1,72 @@
 import type { App } from 'vue'
 
-import arrow from './src/arrow.vue'
+import Arrow from './src/arrow.vue'
 
-import authSuccess from './src/auth-success.vue'
+import AuthSuccess from './src/auth-success.vue'
 
-import auth from './src/auth.vue'
+import Auth from './src/auth.vue'
 
-import components from './src/components.vue'
+import Components from './src/components.vue'
 
-import document from './src/document.vue'
+import Document from './src/document.vue'
 
-import errorMessage from './src/error-message.vue'
+import ErrorMessage from './src/error-message.vue'
 
-import error from './src/error.vue'
+import Error from './src/error.vue'
 
-import execute from './src/execute.vue'
+import Execute from './src/execute.vue'
 
-import fail from './src/fail.vue'
+import Fail from './src/fail.vue'
 
-import infoMessage from './src/info-message.vue'
+import InfoMessage from './src/info-message.vue'
 
-import load from './src/load.vue'
+import Load from './src/load.vue'
 
-import loading from './src/loading.vue'
+import Loading from './src/loading.vue'
 
-import refresh from './src/refresh.vue'
+import Refresh from './src/refresh.vue'
 
-import restart from './src/restart.vue'
+import Restart from './src/restart.vue'
 
-import rocket from './src/rocket.vue'
+import Rocket from './src/rocket.vue'
 
-import search from './src/search.vue'
+import Search from './src/search.vue'
 
-import sourceCode from './src/source-code.vue'
+import SourceCode from './src/source-code.vue'
 
-import star from './src/star.vue'
+import Star from './src/star.vue'
 
-import successMessage from './src/success-message.vue'
+import SuccessMessage from './src/success-message.vue'
 
-import success from './src/success.vue'
+import Success from './src/success.vue'
 
-import top from './src/top.vue'
+import Top from './src/top.vue'
 
-import warningMessage from './src/warning-message.vue'
+import WarningMessage from './src/warning-message.vue'
 
 const componentList = [
-  arrow,
-  authSuccess,
-  auth,
-  components,
-  document,
-  errorMessage,
-  error,
-  execute,
-  fail,
-  infoMessage,
-  load,
-  loading,
-  refresh,
-  restart,
-  rocket,
-  search,
-  sourceCode,
-  star,
-  successMessage,
-  success,
-  top,
-  warningMessage,
+  Arrow,
+  AuthSuccess,
+  Auth,
+  Components,
+  Document,
+  ErrorMessage,
+  Error,
+  Execute,
+  Fail,
+  InfoMessage,
+  Load,
+  Loading,
+  Refresh,
+  Restart,
+  Rocket,
+  Search,
+  SourceCode,
+  Star,
+  SuccessMessage,
+  Success,
+  Top,
+  WarningMessage,
 ]
 
 const install: any = (app: App) => {
@@ -84,26 +84,26 @@ export default {
 }
 
 export {
-  arrow,
-  authSuccess,
-  auth,
-  components,
-  document,
-  errorMessage,
-  error,
-  execute,
-  fail,
-  infoMessage,
-  load,
-  loading,
-  refresh,
-  restart,
-  rocket,
-  search,
-  sourceCode,
-  star,
-  successMessage,
-  success,
-  top,
-  warningMessage,
+  Arrow,
+  AuthSuccess,
+  Auth,
+  Components,
+  Document,
+  ErrorMessage,
+  Error,
+  Execute,
+  Fail,
+  InfoMessage,
+  Load,
+  Loading,
+  Refresh,
+  Restart,
+  Rocket,
+  Search,
+  SourceCode,
+  Star,
+  SuccessMessage,
+  Success,
+  Top,
+  WarningMessage,
 }

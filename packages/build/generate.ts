@@ -81,11 +81,11 @@ function generateIndex(svgFullPathList: string[]): void {
 function converName(componentName: string): string {
     let componentList = componentName.split("-");
     if (componentList.length <= 1) {
-        return componentName;
+        return componentName.slice(0, 1).toUpperCase() + componentName.slice(1);
     }
-    componentName = componentList[0];
-    componentList.slice(1).forEach(item => {
-        componentName += item.charAt(0).toUpperCase() + item.slice(1);
+    componentName = '';
+    componentList.forEach(item => {
+        componentName += item.slice(0, 1).toUpperCase() + item.slice(1);
     });
     return componentName;
 }
