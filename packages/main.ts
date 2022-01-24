@@ -6,6 +6,8 @@ import AuthSuccess from './src/auth-success.vue'
 
 import Auth from './src/auth.vue'
 
+import Close from './src/close.vue'
+
 import Components from './src/components.vue'
 
 import Document from './src/document.vue'
@@ -48,6 +50,7 @@ const componentList = [
   Arrow,
   AuthSuccess,
   Auth,
+  Close,
   Components,
   Document,
   ErrorMessage,
@@ -87,6 +90,7 @@ export {
   Arrow,
   AuthSuccess,
   Auth,
+  Close,
   Components,
   Document,
   ErrorMessage,
