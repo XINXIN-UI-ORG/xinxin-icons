@@ -26,6 +26,10 @@ import Load from './src/load.vue'
 
 import Loading from './src/loading.vue'
 
+import PasswordHide from './src/password-hide.vue'
+
+import PasswordShow from './src/password-show.vue'
+
 import Refresh from './src/refresh.vue'
 
 import Restart from './src/restart.vue'
@@ -60,6 +64,8 @@ const componentList = [
   InfoMessage,
   Load,
   Loading,
+  PasswordHide,
+  PasswordShow,
   Refresh,
   Restart,
   Rocket,
@@ -100,6 +106,8 @@ export {
   InfoMessage,
   Load,
   Loading,
+  PasswordHide,
+  PasswordShow,
   Refresh,
   Restart,
   Rocket,

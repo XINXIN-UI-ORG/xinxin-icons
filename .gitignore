@@ -5,3 +5,4 @@ dist-ssr
 *.local
 xinxin-icons*.tgz
 src
+packages/main.ts
