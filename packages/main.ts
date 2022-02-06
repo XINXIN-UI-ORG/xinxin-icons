@@ -48,6 +48,8 @@ import Success from './src/success.vue'
 
 import Top from './src/top.vue'
 
+import Up from './src/up.vue'
+
 import WarningMessage from './src/warning-message.vue'
 
 const componentList = [
@@ -75,6 +77,7 @@ const componentList = [
   SuccessMessage,
   Success,
   Top,
+  Up,
   WarningMessage,
 ]
 
@@ -117,5 +120,6 @@ export {
   SuccessMessage,
   Success,
   Top,
+  Up,
   WarningMessage,
 }
