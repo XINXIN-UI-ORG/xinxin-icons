@@ -12,6 +12,8 @@ import Components from './src/components.vue'
 
 import Document from './src/document.vue'
 
+import Down from './src/down.vue'
+
 import ErrorMessage from './src/error-message.vue'
 
 import Error from './src/error.vue'
@@ -59,6 +61,7 @@ const componentList = [
   Close,
   Components,
   Document,
+  Down,
   ErrorMessage,
   Error,
   Execute,
@@ -102,6 +105,7 @@ export {
   Close,
   Components,
   Document,
+  Down,
   ErrorMessage,
   Error,
   Execute,
